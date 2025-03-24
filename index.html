@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyResidence</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <a href="./index.html" style="text-decoration: none;"></a>
+                <h2>Homie Sweet<br><span id="black-title">Residence</span> </h2>
+            </div>
+        
+
+            <div class="nav_menu" id="nav_menu">
+                <button class="close_btn" id="close_btn">
+                    <i class="fa fa-arrow-right"></i>
+                </button>
+
+                <ul class="nav_menu_list">
+                    <li class="nav_menu_item">
+                        <a href="./index.html" class="nav_menu_link menu_active">Beranda</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="./tipe_rumah.html" class="nav_menu_link menu_active">Tipe Rumah</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="./tentang_kami.html" class="nav_menu_link menu_active">Tentang Kami</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="./kontak.html" class="nav_menu_link menu_active">Kontak</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="./blog.html" class="nav_menu_link menu_active">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="toggle_btn" id="toggle_btn">
+                <i class="fa fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Section beranda:start -->
+    <section class="wrapper-home" id="home">
+        <div class="container">
+            <div class="grid-cols-2">
+                <div class="grid-item-1">
+                    <h1 class="main-heading">
+                        Selamat Datang di <span>Homie Sweet Residence.</span>
+                    </h1>
+                    <p class="info-text">
+                        Hunian untuk kamu yang kekinian. Nyaman, Modern, dan Berkualitas.
+                    </p>
+
+                    <div class="btn_wrapper">
+                        <button class="btn_home view_more_btn" >
+                            Kontak Kami <i class="fa fa-phone"></i>
+                        </button>
+                        <button class="btn_home documentation_btn">
+                            Info Detail
+                        </button>
+                    </div>
+
+                </div>
+                <div class="grid-item-2">
+                    <div class="team_img_wrapper">
+                        <img src="./images/img/Salinan home.png" alt="team-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section beranda:end -->
+
+
+    <!-- Section fasilitas: start, menggunakan bootstrap -->
+    <div class="container pt-4 pb-4 mt-2 mb-3 fasilitas">
+        <h1 class="text-center my-5">Fasilitas yang dimiliki</h1>
+        <br><br>
+        <div class="row">
+            <div class="col-md-6 fasilitas-text">
+                <h2>Kolam renang infinity</h2>
+                <p>Nikmati momen istimewa berenang di kolam Infinity kami dengan desain yang memanjakan mata. Anda dapat berenang dan menikmati pemandangan panorama indah di kolam renang.</p>
+            </div>
+
+            <div class="col-md-6">
+                <img src="./images/fasilitas/Salinan 1.jpg" alt="kolam-renang" class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./images/fasilitas/Salinan 2.jpg" alt="pusat-kebugaran" class="img-fluid">
+            </div>
+            <div class="col-md-6 fasilitas-text">
+                <h2>Pusat Kebugaran Berstandar Tinggi</h2>
+                <p>Jadilan sehat dengan berolahraga menggunakan fasilitas kebugaran kami yang berstandar internasional. Kamu dapat mengunjungi fasilitas ini selama 24 jam.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 fasilitas-text">
+                <h2>Taman Hijau Sejuk</h2>
+                <p>Jalan santai di area taman hijau untuk menghilangkan penat dan mendapatkan udara yang segar.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="./images/fasilitas/Salinan 4.jpg" alt="taman" class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./images/fasilitas/Salinan 5.jpg" alt="keamanan" class="img-fluid">
+            </div>
+            <div class="col-md-6 fasilitas-text">
+                <h2>Keamanan Didukung dengan CCTV 24 jam</h2>
+                <p>Tidak perlu khawatir untuk berjalan di malam hari atau sendirian, kami sudah melengkapi sudut area dengan CCTV yang langsung terhubung dengan ruang monitoring Security kami.</p>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+    <footer class="footer">
+        <div>Copyright &copy; E-Learning MySkill 2025</div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="./script.js" defer></script>
+</body>
+</html>
